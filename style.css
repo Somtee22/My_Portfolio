@@ -1,0 +1,278 @@
+*{
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Images/sommy.JPG);
+    background-size: cover;
+    background-position: left;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+.menu {
+    color: rgb(223, 27, 207);
+    font-size: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+span {
+    color: #70a7d4;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px  ;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+   color: rgb(223, 27, 207);
+   transition: .4s;
+}
+.button {
+    text-decoration: none;
+    background-color: rgb(223, 27, 207);
+    color: aqua;
+    border: 2px solid rgb(57, 6, 241);
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: .4s;
+
+}
+.button:hover {
+    transform: scale(1,2);
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+    
+}
+h1 {
+    color: rgb(187, 55, 174);
+    margin: 20px 5px 10px;
+    font-size: 60px;
+    font-weight: 600;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+ h4 {
+    color: rgb(240, 192, 237);
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', ;
+ }
+ .news form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+ }
+ .news form input:first-child {
+ display: inline-block;
+ width: 80%;
+ padding: 15px 80px 15px  13px;
+ border: 2px solid rgb(223, 27, 207);
+ outline: none;
+ border-radius: 30px;
+ 
+ }
+ .news form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 15px 5px;
+    border-radius: 20%;
+    background-color:rgb(223, 27, 207) ;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px rgb(57, 6, 241);
+    top: 10px;
+    right: 80px;
+    font-size: 15px;
+    color: antiquewhite;
+ }
+ .about{
+    width: 100%;
+   
+    background-color: rgb(27, 26, 26); 
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: auto;
+ }
+ .about img{
+    height: auto;
+    width: 350px;
+    border: 7px solid rgb(57, 6, 241) ;
+    border-radius: 20%;
+    border-style: double;
+ }
+ .about-text{
+    width: 500px;
+ }
+ .main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+.about-text h2{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: rgb(223, 27, 207) ;
+}
+ .about-text h5 {
+    color: antiquewhite;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 20px;
+ }
+
+ .about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 45px;
+    
+ }
+button {
+    background-color:rgb(223, 27, 207) ;
+    color: rgb(61, 37, 105);
+    border: 2px solid rgb(109, 75, 231);
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    }
+
+ button:hover{
+    background-color: #000;
+    border: 2px solid rgb(223, 27, 207);
+}
+
+.service {
+    background-image: url(./Images/dark.jfif);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 00px;
+    padding-top: 200px;
+}
+
+.title h2{
+    color: white;
+    font-size: 80px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card {
+    height: 365px;
+    width: 400px;
+    padding: 20px 35px;
+    background: rgb(199, 58, 199);
+    border-radius: 20px;
+    border: 4px solid #ffffff;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+
+}
+.card i{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: #000;
+}
+h5{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.pra p {
+    color: #000;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.card .button {
+    background-color:rgb(223, 27, 207) ;
+    color: rgb(61, 37, 105);
+    border: 2px solid rgb(109, 75, 231);
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    }
+    .card .button:hover {
+    background-color: #000;
+    border: 2px solid rgb(223, 27, 207);
+
+    }
+
+@media screen and (max-width: 500px) {
+    .hero {
+        height: 100vh;
+        width: 100%;
+      
+    
+    }
+    nav {
+       
+       width: 100%;
+       padding-top: 0px;
+        
+
+    }
+    .menu {
+      
+        font-size: 30px;
+       
+}
+
+nav ul li a {
+    display: none;
+}
+
+
+}
+
+
+
+
