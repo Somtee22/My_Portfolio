@@ -9,20 +9,47 @@
   </head>
   <body>
     <!--Header-->
-    <div
-      class=" w-100 bg-black d-flex justify-content-between align-items-center p-5"
-      style="height: 15vh"
-    >
-      <h2 class="text-warning text-uppercase">Scholly</h2>
-      <div class="d-flex flex-wrap justify-content-around mx-auto w-50">
-        <a href="" class="text-decoration-none text-light">Home</a>
-        <a href="" class="text-decoration-none text-light">About Us</a>
-        <a href="" class="text-decoration-none text-light">Skills</a>
-        <a href="" class="text-decoration-none text-light">Projects</a>
-        <a href="" class="text-decoration-none text-light">Contact Us</a>
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#">SCHOLLY</a>
+        <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto ">
+            <li class="nav-item">
+              <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">Projects</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+           
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-      <button type="button" class="btn btn-warning">Let"s Talk</button>
-    </div>
+    </nav>
+  
 
     <!-- main -->
     <div class="bg-light">
@@ -90,6 +117,13 @@
       </div>
    </section>
   </div>
+  
+
+  
+
+
+
+
     <!--contact me-->
     <!-- <div class="contact-me">
       <p>Let me Get you A <span> Beautiful Website.</span></p>
